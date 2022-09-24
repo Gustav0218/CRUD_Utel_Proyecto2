@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div label for="codigoProducto">Codigo de Producto
+                        <input type="text" name="codigoProducto" id="codigoProducto">
+                    </div>
+                    <div label for="Producto">Producto
+                        <input type="text" name="Producto" id="Producto">
+                    </div>
+                    <div label for="Cantidad"> Cantidad
+                        <input type="number" name="Cantidad" id="Cantidad">
+                    </div>
+                    <div label for="Precio">Precio
+                        <input type="number" name="Precio" id="Precio">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            
+               <td>
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>Codigo de Producto</th>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                </table>
+            </td>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
