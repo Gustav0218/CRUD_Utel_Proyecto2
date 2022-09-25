@@ -1,3 +1,5 @@
+const { Button } = require("bootstrap");
+
 var selectedRow = null;
 function onFormSubmit(){
     event.preventDefault();
@@ -36,7 +38,7 @@ function insertNewRecord(data) {
     var cell4 = newRow.insertCell(3);
         cell4.innerHTML = data.Precio;  
     var cel15 = newRow.insertCell(4);
-        ce115.innerHTML ="<button>Edit)</button>  <button>Delete</button>"
+        ce115.innerHTML = <button onclick ="edit" () >Editar</button>
         
 }
 

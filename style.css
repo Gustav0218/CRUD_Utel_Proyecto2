@@ -1,3 +1,6 @@
+body{
+    background-image::url("images.jpeg")
+}
 
 table{
     width: 80%;
@@ -60,3 +63,4 @@ button{
 button:hover{
     background: #4b99d8;
     }
+
